@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Store a newly Job Opening in jobboard.jobs
  *
@@ -26,7 +27,7 @@ public function store(Request $request)
         $job->location          = $request->get('location');
         $job->category_id       = $request->get('category');
         $job->apply_link        = $request->get('apply_link'); //link on employer's site to apply
-        $job->active            = ;
+        $job->active            = 1;
         $job->save();
 
         //Return JSON response of a success
