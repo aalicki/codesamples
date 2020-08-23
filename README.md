@@ -10,5 +10,6 @@ or processes are revealed.
 * Node.js
 * Angular 7 / TypeScript
 * Vue.js
+* React with Typescript (Stripe form UI)
 * jQuery
 * SQL (some Eloquent models as well)
